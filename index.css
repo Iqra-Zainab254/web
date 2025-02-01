@@ -1,0 +1,86 @@
+.hero{
+    height: 50vh;
+}
+.hero h1{
+    font-weight: 900;
+}
+.hero-content button{
+    padding: 15px;
+    border: 1px solid rebeccapurple;
+    border-radius: 15px;
+    font-weight: 700;
+    transition: 1s;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+.hero-content button:hover{
+    background-color: rgb(183, 159, 221);
+    color: red;
+}
+.head{
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.head h1{
+    font-weight: bold;
+    transition: 1s;
+    color: white;
+}
+.head h1:hover{
+    color: Red;
+}
+.hero-content{
+    margin-top: 10%;
+}
+nav ul li a {
+    color: white;
+    transition: 1s;
+    font-weight: 600;
+    text-decoration: dashed;
+}
+nav ul li a:hover{
+    color: red;
+}
+.menu{
+    background-image: url('down.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 22px;
+    margin-top: 15px;
+    font-weight: 600;
+
+}
+.footer p{
+    color: #999;
+}
+
+.icons .fa {
+    color: rgb(240, 13, 13);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart-o {
+    color: rgb(231, 11, 36);
+}
+#joinBtn li{
+list-style: none;
+}
+#joinBtn li a{
+    text-decoration: none;
+}
